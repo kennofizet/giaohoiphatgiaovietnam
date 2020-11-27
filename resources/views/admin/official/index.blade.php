@@ -1,6 +1,6 @@
 @extends('admin.layouts.main')
 @section('style')
-<link href="{{url('/')}}/admin/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+<link href="/admin/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 @endsection
 
 @section('content')
@@ -86,8 +86,8 @@
 
 @section('script')
  <!-- Page level plugins -->
-    <script src="{{url('/')}}/admin/vendor/datatables/jquery.dataTables.min.js"></script>
-    <script src="{{url('/')}}/admin/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+    <script src="/admin/vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="/admin/vendor/datatables/dataTables.bootstrap4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
     <!-- Page level custom scripts -->
