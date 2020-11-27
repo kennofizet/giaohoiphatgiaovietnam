@@ -20,14 +20,14 @@
     <meta property="og:url" content="{{route('home')}}">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="canonical" href="{{route('home')}}">
-    <link rel="preload" as="script" href="{{url('/')}}/themes/default/js/bootstrap.min8ce6.js?t=29">
-    <link rel="StyleSheet" href="{{url('/')}}/assets/css/font-awesome.min8ce6.css?t=29">
-    <link rel="StyleSheet" href="{{url('/')}}/themes/default/css/bootstrap.non-responsive8ce6.css?t=29">
-    <link rel="StyleSheet" href="{{url('/')}}/themes/default/css/style8ce6.css?t=29">
-    <link rel="StyleSheet" href="{{url('/')}}/themes/default/css/style.non-responsive8ce6.css?t=29">
-    <!-- <link rel="StyleSheet" href="{{url('/')}}/assets/css/default.vi.08ce6.css?t=29"> -->
-    <link rel="StyleSheet" href="{{url('/')}}/themes/default/css/users8ce6.css?t=29">
-    <link rel="stylesheet" type="text/css" media="screen" href="{{url('/')}}/themes/default/css/slimmenu8ce6.css?t=29" />
+    <link rel="preload" as="script" href="/themes/default/js/bootstrap.min8ce6.js?t=29">
+    <link rel="StyleSheet" href="/assets/css/font-awesome.min8ce6.css?t=29">
+    <link rel="StyleSheet" href="/themes/default/css/bootstrap.non-responsive8ce6.css?t=29">
+    <link rel="StyleSheet" href="/themes/default/css/style8ce6.css?t=29">
+    <link rel="StyleSheet" href="/themes/default/css/style.non-responsive8ce6.css?t=29">
+    <!-- <link rel="StyleSheet" href="/assets/css/default.vi.08ce6.css?t=29"> -->
+    <link rel="StyleSheet" href="/themes/default/css/users8ce6.css?t=29">
+    <link rel="stylesheet" type="text/css" media="screen" href="/themes/default/css/slimmenu8ce6.css?t=29" />
     @yield('style')
 </head>
 <body>
@@ -37,7 +37,7 @@
             <header>
                 <div class="container">
                     <div id="header" class="row">
-                        <img src="{{url('/')}}/logo.jpg" style="
+                        <img src="/logo.jpg" style="
                         margin-top: 67px;
                         /* height: 241px; */
                         width: 100%;
