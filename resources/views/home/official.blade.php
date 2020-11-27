@@ -39,8 +39,8 @@
       <td>{{$loop->index + 1}}</td>
       <td><a href="{{route('official.detail',$detail_official->slug)}}">{{$detail_official->name}}</a></td>
       <td>{{$detail_official->alias}}</td>
-      <td>@if({$detail_official->Category){{$detail_official->Category->name}}@endif</td>
-      <td>@if({$detail_official->Position){{$detail_official->Position->name}}@endif</td>
+      <td>@if($detail_official->Category){{$detail_official->Category->name}}@endif</td>
+      <td>@if($detail_official->Position){{$detail_official->Position->name}}@endif</td>
     </tr>
     @endforeach
   </tbody>

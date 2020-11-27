@@ -116,7 +116,7 @@ input[type="file"]::-webkit-file-upload-button {
   			<tr>
   				<th>Thể loại </th>
   				<td>
-  					<span>@if({$detail_official_view->Category){{$detail_official_view->Category->name}}@endif</span>
+  					<span>@if($detail_official_view->Category){{$detail_official_view->Category->name}}@endif</span>
   				</td>
   			</tr>
   			<tr>
@@ -134,7 +134,7 @@ input[type="file"]::-webkit-file-upload-button {
   			<tr>
   				<th>Chức vụ</th>
   				<td colspan="2">
-  					<span>@if({$detail_official_view->Position){{$detail_official_view->Position->name}}@endif</span>
+  					<span>@if($detail_official_view->Position){{$detail_official_view->Position->name}}@endif</span>
   				</td>
   			</tr>
   			<tr>
