@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "46a5748f5321f6155322b543b5742712",
+    "content-hash": "25c5d4d7079e58a9862856b45b5965c5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5057,16 +5057,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "7.0.11",
+            "version": "7.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "8eb390a862ec0408fd8ec90fa939ca253ef14218"
+                "reference": "52f55786aa2e52c26cd9e2db20aff2981e0f7399"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/8eb390a862ec0408fd8ec90fa939ca253ef14218",
-                "reference": "8eb390a862ec0408fd8ec90fa939ca253ef14218",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/52f55786aa2e52c26cd9e2db20aff2981e0f7399",
+                "reference": "52f55786aa2e52c26cd9e2db20aff2981e0f7399",
                 "shasum": ""
             },
             "require": {
@@ -5116,7 +5116,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2020-11-27T05:19:31+00:00"
+            "time": "2020-11-27T06:08:35+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -6171,7 +6171,8 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.2.5|^8.0"
+        "php": "^7.2.5|^8.0",
+        "ext-gd": "*"
     },
     "platform-dev": []
 }

@@ -16,7 +16,7 @@
         "intervention/image": "^2.5",
         "laravel/framework": "^7.29",
         "laravel/tinker": "^2.5",
-        "ext-gd":" *",
+        "ext-gd": "*",
         "shiftonelabs/laravel-cascade-deletes": "^1.0"
     },
     "require-dev": {
