@@ -62,7 +62,7 @@
 @endsection
 
 @section('script')
-<script type="text/javascript" src="{{url('/')}}/assets/js/jquery/jquery.min8ce6.js"></script>
+<script type="text/javascript" src="/assets/js/jquery/jquery.min8ce6.js"></script>
 <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js" type="text/javascript"></script>
 <script type="text/javascript">
   $(document).ready(function () {

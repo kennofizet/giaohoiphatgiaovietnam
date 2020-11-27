@@ -98,7 +98,7 @@ input[type="file"]::-webkit-file-upload-button {
   				<td colspan="2" rowspan="3" align="center">
             <div class="text-left">
               <div class="preview prev-restyle img-wrapper">
-                <img src="{{url('/')}}/upload/source/api/blog/images/{{$detail_official_view->photo_profile}}.jpg">
+                <img src="/upload/source/api/blog/images/{{$detail_official_view->photo_profile}}.jpg">
               </div>
               <hr>
               <div class="file-upload-wrapper">
@@ -148,7 +148,7 @@ input[type="file"]::-webkit-file-upload-button {
   				<td colspan="2">
   					<div class="text-left">
               <div class="preview img-wrapper">
-                <img src="{{url('/')}}/upload/source/api/blog/images/{{$detail_official_view->qr_code}}.jpg">
+                <img src="/upload/source/api/blog/images/{{$detail_official_view->qr_code}}.jpg">
               </div>
   					</div>
 
